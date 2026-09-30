@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterTink | Internet para tu hogar</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+            <h1>InterTink</h1>
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#planes">Planes</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-contenido">
+
+                <p class="subtitulo">INTERNET PARA TU HOGAR</p>
+
+                <h2>
+                    Conéctate a una
+                    <span>mejor experiencia.</span>
+                </h2>
+
+                <p>
+                    Disfruta una conexión rápida y estable para navegar,
+                    estudiar, trabajar, jugar y disfrutar de tus contenidos
+                    favoritos.
+                </p>
+
+                <button onclick="verPlanes()">
+                    Ver planes
+                </button>
+
+            </div>
+
+            <div class="hero-imagen">
+
+                <div class="wifi">
+                    <div class="wifi-centro">●</div>
+                </div>
+
+                <h3>Internet de alta velocidad</h3>
+
+                <p>
+                    Conecta todos tus dispositivos y disfruta de una
+                    conexión estable.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PLANES -->
+
+        <section id="planes" class="seccion">
+
+            <div class="titulo">
+
+                <p>NUESTROS PLANES</p>
+
+                <h2>Elige la velocidad que necesitas</h2>
+
+            </div>
+
+
+            <div class="planes">
+
+                <div class="plan">
+
+                    <h3>Básico</h3>
+
+                    <div class="velocidad">
+                        30 <small>Mbps</small>
+                    </div>
+
+                    <p>
+                        Para navegación, redes sociales y tareas escolares.
+                    </p>
+
+                    <div class="precio">
+                        $299 <small>/mes</small>
+                    </div>
+
+                    <ul>
+                        <li>✓ Internet ilimitado</li>
+                        <li>✓ Instalación</li>
+                        <li>✓ Soporte técnico</li>
+                    </ul>
+
+                    <button onclick="contratar('Básico')">
+                        Contratar
+                    </button>
+
+                </div>
+
+
+                <div class="plan destacado">
+
+                    <div class="etiqueta-plan">
+                        RECOMENDADO
+                    </div>
+
+                    <h3>Familiar</h3>
+
+                    <div class="velocidad">
+                        100 <small>Mbps</small>
+                    </div>
+
+                    <p>
+                        Ideal para familias, streaming y varios dispositivos.
+                    </p>
+
+                    <div class="precio">
+                        $449 <small>/mes</small>
+                    </div>
+
+                    <ul>
+                        <li>✓ Internet ilimitado</li>
+                        <li>✓ Instalación</li>
+                        <li>✓ Soporte técnico</li>
+                    </ul>
+
+                    <button onclick="contratar('Familiar')">
+                        Contratar
+                    </button>
+
+                </div>
+
+
+                <div class="plan">
+
+                    <h3>Premium</h3>
+
+                    <div class="velocidad">
+                        200 <small>Mbps</small>
+                    </div>
+
+                    <p>
+                        Para hogares con múltiples usuarios y mayor consumo.
+                    </p>
+
+                    <div class="precio">
+                        $599 <small>/mes</small>
+                    </div>
+
+                    <ul>
+                        <li>✓ Internet ilimitado</li>
+                        <li>✓ Instalación</li>
+                        <li>✓ Soporte técnico</li>
+                    </ul>
+
+                    <button onclick="contratar('Premium')">
+                        Contratar
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BENEFICIOS -->
+
+        <section id="beneficios" class="beneficios">
+
+            <div class="titulo">
+
+                <p>¿POR QUÉ ELEGIRNOS?</p>
+
+                <h2>Una conexión pensada para ti</h2>
+
+            </div>
+
+
+            <div class="beneficios-grid">
+
+                <div class="beneficio">
+
+                    <div class="icono">⚡</div>
+
+                    <h3>Alta velocidad</h3>
+
+                    <p>
+                        Navega, descarga archivos y disfruta contenido
+                        en línea con una conexión rápida.
+                    </p>
+
+                </div>
+
+
+                <div class="beneficio">
+
+                    <div class="icono">📶</div>
+
+                    <h3>Conexión estable</h3>
+
+                    <p>
+                        Mantén tus dispositivos conectados para tus
+                        actividades diarias.
+                    </p>
+
+                </div>
+
+
+                <div class="beneficio">
+
+                    <div class="icono">🛠</div>
+
+                    <h3>Soporte técnico</h3>
+
+                    <p>
+                        Recibe atención para resolver problemas
+                        relacionados con tu servicio.
+                    </p>
+
+                </div>
+
+
+                <div class="beneficio">
+
+                    <div class="icono">🏠</div>
+
+                    <h3>Internet para tu hogar</h3>
+
+                    <p>
+                        Planes diseñados para cubrir las necesidades
+                        de conexión de tu familia.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section id="contacto" class="contacto">
+
+            <h2>¿Quieres contratar Internet?</h2>
+
+            <p>
+                Conoce nuestros planes y encuentra una opción para tu hogar.
+            </p>
+
+            <button onclick="contactar()">
+                Solicitar información
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <h3>InterTink</h3>
+
+        <p>
+            Internet rápido y confiable para tu hogar.
+        </p>
+
+        <p>
+            © 2026 InterTink. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
